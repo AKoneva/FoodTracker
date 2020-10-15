@@ -16,6 +16,7 @@
 		FA7194F1253835D600B0368F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7194EF253835D600B0368F /* LaunchScreen.storyboard */; };
 		FA7194FC253835D600B0368F /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7194FB253835D600B0368F /* FoodTrackerTests.swift */; };
 		FA719507253835D600B0368F /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA719506253835D600B0368F /* FoodTrackerUITests.swift */; };
+		FA71952225384AC800B0368F /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71952125384AC800B0368F /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FA719502253835D600B0368F /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA719506253835D600B0368F /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		FA719508253835D600B0368F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA71952125384AC800B0368F /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				FA7194E3253835D400B0368F /* SceneDelegate.swift */,
 				FA7194E5253835D400B0368F /* ViewController.swift */,
 				FA7194E7253835D400B0368F /* Main.storyboard */,
+				FA71952125384AC800B0368F /* RatingControl.swift */,
 				FA7194ED253835D600B0368F /* Assets.xcassets */,
 				FA7194EF253835D600B0368F /* LaunchScreen.storyboard */,
 				FA7194F2253835D600B0368F /* Info.plist */,
@@ -264,6 +267,7 @@
 				FA7194EC253835D400B0368F /* FoodTracker.xcdatamodeld in Sources */,
 				FA7194E6253835D400B0368F /* ViewController.swift in Sources */,
 				FA7194E2253835D400B0368F /* AppDelegate.swift in Sources */,
+				FA71952225384AC800B0368F /* RatingControl.swift in Sources */,
 				FA7194E4253835D400B0368F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
