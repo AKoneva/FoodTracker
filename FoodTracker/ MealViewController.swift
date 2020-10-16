@@ -7,13 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class  MealViewController: UIViewController {
 
-    @IBOutlet weak var mealNameLabel: UILabel!
     @IBOutlet weak var nameTextField: UITextField!
-    
     @IBOutlet weak var photoImageView: UIImageView!
-    
     @IBOutlet weak var ratingControl: RatingControl!
     
     
@@ -44,18 +41,14 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: UITextFieldDelegate {
+extension  MealViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
     }
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        if textField.text != nil {
-            mealNameLabel.text = "Meal Name: " + textField.text!
+    
     }
-    }
-}
-extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+extension  MealViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         // Dismiss the picker if the user canceled.
         dismiss(animated: true, completion: nil)
